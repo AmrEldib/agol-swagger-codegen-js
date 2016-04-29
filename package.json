@@ -1,0 +1,34 @@
+{
+  "name": "agol-swagger-codegen-js",
+  "version": "0.1.0",
+  "description": "JavaScript client of ArcGIS REST API automatically generated using agol-swagger",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build/build.js"
+  },
+  "keywords": [
+    "arcgis",
+    "test",
+    "rest",
+    "swagger"
+  ],
+  "author": "Amr Eldib",
+  "contributors": [
+    {
+      "name": "Amr Eldib",
+      "url": "http://amreldib.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmrEldib/agol-swagger-codegen-js.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "swagger-js-codegen": "^1.4.2"
+  },
+  "dependencies": {
+    "q": "^1.4.1",
+    "request": "^2.72.0"
+  }
+}
